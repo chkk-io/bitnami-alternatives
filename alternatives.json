@@ -1,0 +1,1785 @@
+[
+  {
+    "project": "apache-airflow",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/airflow",
+        "public.ecr.aws/bitnami/airflow"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/apache/airflow",
+        "ghcr.io/apache/airflow",
+        "gcr.io/cloud-marketplace/google/airflow",
+        "gcr.io/cloud-marketplace/google/airflow2"
+      ],
+      "charts": [
+        {
+          "registry": "https://airflow.apache.org",
+          "name": "airflow"
+        }
+      ]
+    }
+  },
+  {
+    "project": "apache-cassandra",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/cassandra",
+        "public.ecr.aws/bitnami/cassandra"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/cassandra"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/library/cassandra",
+        "docker.io/ubuntu/cassandra",
+        "docker.io/rapidfort/cassandra-official",
+        "public.ecr.aws/docker/library/cassandra",
+        "public.ecr.aws/ubuntu/cassandra",
+        "gcr.io/google-containers/cassandra"
+      ]
+    }
+  },
+  {
+    "project": "apache-kafka",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/kafka",
+        "public.ecr.aws/bitnami/kafka"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/kafka"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/apache/kafka",
+        "docker.io/apache/kafka-native",
+        "docker.io/ubuntu/kafka",
+        "quay.io/strimzi/kafka"
+      ],
+      "charts": [
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "kafka"
+        }
+      ]
+    }
+  },
+  {
+    "project": "apache-solr",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/solr"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/solr"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/library/solr"
+      ],
+      "charts": [
+        {
+          "registry": "https://solr.apache.org/charts",
+          "name": "solr"
+        }
+      ]
+    }
+  },
+  {
+    "project": "apache-zookeeper",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/zookeeper",
+        "docker.io/bitnamicharts/zookeeper",
+        "public.ecr.aws/bitnami/zookeeper"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "zookeeper"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/library/zookeeper",
+        "docker.io/ubuntu/zookeeper",
+        "docker.io/rapidfort/zookeeper",
+        "docker.io/rancher/zookeeper",
+        "docker.io/chainguard/zookeeper",
+        "public.ecr.aws/docker/library/zookeeper"
+      ]
+    }
+  },
+  {
+    "project": "argo-cd",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/argo-cd"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "argo-cd"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/argoproj/argocd",
+        "quay.io/argoproj/argocd"
+      ],
+      "charts": [
+        {
+          "registry": "https://argoproj.github.io/argo-helm",
+          "name": "argo-cd"
+        },
+        {
+          "registry": "https://mesosphere.github.io/charts/stable",
+          "name": "argo-cd"
+        },
+        {
+          "registry": "https://charts.wener.tech",
+          "name": "argo-cd"
+        },
+        {
+          "registry": "https://charts.kubegems.io/kubegems",
+          "name": "argo-cd"
+        },
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "argo-cd"
+        }
+      ]
+    }
+  },
+  {
+    "project": "cert-manager",
+    "bitnami": {
+      "images": [
+        "bitnami/cert-manager",
+        "docker.io/bitnami/cert-manager",
+        "docker.io/bitnami/cert-manager-webook"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/cert-manager"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "quay.io/jetstack/cert-manager-controller",
+        "gcr.io/cloud-marketplace/google/cert-manager",
+        "chainguard/cert-manager-controller",
+        "tetrate/cert-manager-controller",
+        "public.ecr.aws/eks-anywhere/jetstack/cert-manager-controller",
+        "public.ecr.aws/eks-anywhere/cert-manager/cert-manager-controller",
+        "quay.io/jetstack/cert-manager-cainjector",
+        "quay.io/jetstack/cert-manager-acmesolver",
+        "quay.io/jetstack/cert-manager-webhook",
+        "public.ecr.aws/eks-anywhere/jetstack/cert-manager-cainjector",
+        "public.ecr.aws/eks-anywhere/jetstack/cert-manager-webhook",
+        "public.ecr.aws/eks-anywhere/cert-manager/cert-manager-webhook",
+        "public.ecr.aws/eks-anywhere/cert-manager/cert-manager-cainjector"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.jetstack.io",
+          "name": "cert-manager"
+        }
+      ]
+    }
+  },
+  {
+    "project": "cilium",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/cilium"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "public.ecr.aws/isovalent/cilium",
+        "quay.io/cilium/cilium",
+        "quay.io/cilium/cilium-runtime",
+        "quay.io/isovalent/cilium",
+        "docker.io/cilium/cilium",
+        "quay.io/cilium/cilium-ci",
+        "quay.io/cilium/cilium-envoy",
+        "quay.io/cilium/clustermesh-apiserver"
+      ],
+      "charts": [
+        {
+          "registry": "https://helm.cilium.io/",
+          "name": "cilium"
+        }
+      ]
+    }
+  },
+  {
+    "project": "clickhouse",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/clickhouse"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/clickhouse"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/clickhouse/clickhouse-server",
+        "docker.io/altinity/clickhouse-server",
+        "docker.io/clickhouse/clickhouse-keeper",
+        "docker.io/altinity/clickhouse-keeper"
+      ],
+      "charts": [
+        {
+          "registry": "https://helm.altinity.com",
+          "name": "clickhouse"
+        },
+        {
+          "registry": "https://helm.altinity.com",
+          "name": "clickhouse-eks"
+        },
+        {
+          "registry": "https://helm.altinity.com",
+          "name": "clickhouse-keeper-sts"
+        },
+        {
+          "registry": "https://helm.altinity.com",
+          "name": "keeper-sts"
+        }
+      ]
+    }
+  },
+  {
+    "project": "clickhouse-operator",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/clickhouse-operator"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/clickhouse-operator"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/altinity/clickhouse-operator"
+      ],
+      "charts": [
+        {
+          "registry": "https://docs.altinity.com/clickhouse-operator",
+          "name": "altinity-clickhouse-operator"
+        }
+      ]
+    }
+  },
+  {
+    "project": "cluster-autoscaler",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/cluster-autoscaler"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/paperspace/cluster-autoscaler",
+        "docker.io/automium/cluster-autoscaler",
+        "docker.io/openstackmagnum/cluster-autoscaler",
+        "docker.io/cortexlabs/cluster-autoscaler",
+        "registry.k8s.io/autoscaling/cluster-autoscaler",
+        "k8s.gcr.io/autoscaling/cluster-autoscaler"
+      ],
+      "charts": [
+        {
+          "registry": "https://kubernetes.github.io/autoscaler",
+          "name": "cluster-autoscaler"
+        }
+      ]
+    }
+  },
+  {
+    "project": "contour",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/contour",
+        "public.ecr.aws/bitnami/contour"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "contour"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "ghcr.io/projectcontour/contour",
+        "docker.io/projectcontour/contour"
+      ]
+    }
+  },
+  {
+    "project": "dex",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/dex",
+        "public.ecr.aws/bitnami/dex"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "ghcr.io/dexidp/dex",
+        "docker.io/dexidp/dex"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.dexidp.io",
+          "name": "dex"
+        }
+      ]
+    }
+  },
+  {
+    "project": "elasticsearch",
+    "bitnami": {
+      "images": [
+        "public.ecr.aws/bitnami/elasticsearch",
+        "docker.io/bitnami/elasticsearch"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/elasticsearch"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.elastic.co/elasticsearch/elasticsearch",
+        "docker.io/elasticsearch",
+        "public.ecr.aws/elastic/elasticsearch"
+      ],
+      "charts": [
+        {
+          "registry": "https://helm.elastic.co",
+          "name": "elasticsearch"
+        }
+      ]
+    }
+  },
+  {
+    "project": "envoy",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/envoy",
+        "public.ecr.aws/bitnami/envoy"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/envoyproxy/envoy",
+        "docker.io/envoyproxy/envoy-alpine",
+        "docker.io/envoyproxy/envoy-alpine-debug",
+        "docker.io/envoyproxy/envoy-dev",
+        "docker.io/envoyproxy/envoy-contrib",
+        "docker.io/envoyproxy/envoy-distroless",
+        "docker.io/envoyproxy/envoy-build-ubuntu",
+        "docker.io/envoyproxy/envoy-alpine-dev"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.helm.sh/stable",
+          "name": "envoy"
+        },
+        {
+          "registry": "https://slamdev.github.io/helm-charts",
+          "name": "envoy"
+        },
+        {
+          "registry": "https://cloudnativeapp.github.io/charts/curated/",
+          "name": "envoy"
+        }
+      ]
+    }
+  },
+  {
+    "project": "etcd",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/etcd",
+        "public.ecr.aws/bitnami/etcd"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "etcd"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "gcr.io/etcd-development/etcd",
+        "quay.io/coreos/etcd",
+        "docker.io/pachyderm/etcd",
+        "docker.io/rapidfort/etcd",
+        "public.ecr.aws/eks-distro/etcd-io/etcd",
+        "public.ecr.aws/h1r8a7l5/etcd-io/etcd"
+      ],
+      "charts": [
+        {
+          "registry": "https://groundhog2k.github.io/helm-charts/",
+          "name": "etcd"
+        }
+      ]
+    }
+  },
+  {
+    "project": "external-dns",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/external-dns",
+        "public.ecr.aws/bitnami/external-dns"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/external-dns"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "registry.k8s.io/external-dns/external-dns",
+        "k8s.gcr.io/external-dns/external-dns",
+        "docker.io/giantswarm/external-dns"
+      ],
+      "charts": [
+        {
+          "registry": "https://kubernetes-sigs.github.io/external-dns/",
+          "name": "external-dns"
+        },
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "external-dns"
+        }
+      ]
+    }
+  },
+  {
+    "project": "fluent-bit",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/fluent-bit",
+        "public.ecr.aws/bitnami/fluent-bit"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "cr.fluentbit.io/fluent/fluent-bit",
+        "docker.io/fluent/fluent-bit",
+        "public.ecr.aws/aws-observability/aws-for-fluent-bit",
+        "gke.gcr.io/fluent-bit"
+      ],
+      "charts": [
+        {
+          "registry": "https://fluent.github.io/helm-charts",
+          "name": "fluent-bit"
+        }
+      ]
+    }
+  },
+  {
+    "project": "fluentd",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/fluentd",
+        "docker.io/bitnamicharts/fluentd",
+        "public.ecr.aws/bitnami/fluentd"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/fluentd"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/fluent/fluentd-kubernetes-daemonset",
+        "docker.io/library/fluentd",
+        "docker.io/rancher/fluentd",
+        "docker.io/rancher/banzaicloud-fluentd",
+        "docker.io/fluent/fluentd",
+        "docker.io/chainguard/fluentd",
+        "public.ecr.aws/sumologic/kubernetes-fluentd",
+        "public.ecr.aws/docker/library/fluentd",
+        "public.ecr.aws/w5r2w2e1/fluentd-kubernetes-daemonset"
+      ],
+      "charts": [
+        {
+          "registry": "https://fluent.github.io/helm-charts",
+          "name": "fluentd"
+        }
+      ]
+    }
+  },
+  {
+    "project": "flux-cd",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/fluxcd-source-controller",
+        "public.ecr.aws/bitnami/fluxcd-source-controller"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "ghcr.io/fluxcd/source-controller",
+        "docker.io/fluxcd/source-controller",
+        "public.ecr.aws/l0g8r8j6/fluxcd/source-controller",
+        "public.ecr.aws/eks-anywhere/fluxcd/source-controller"
+      ],
+      "charts": [
+        {
+          "registry": "https://fluxcd-community.github.io/helm-charts",
+          "name": "flux2"
+        }
+      ]
+    }
+  },
+  {
+    "project": "grafana",
+    "bitnami": {
+      "images": [
+        "public.ecr.aws/bitnami/grafana",
+        "docker.io/bitnami/grafana"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/grafana"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/grafana/grafana-enterprise",
+        "docker.io/grafana/grafana",
+        "docker.io/grafana/grafana-oss",
+        "docker.io/grafana/grafana-dev",
+        "docker.io/grafana/grafana-oss-dev",
+        "docker.io/grafana/grafana-enterprise-dev",
+        "public.ecr.aws/ubuntu/grafana",
+        "docker.io/ubuntu/grafana",
+        "gcr.io/cloud-marketplace/google/grafana",
+        "quay.io/groundcover/grafana",
+        "docker.io/chainguard/grafana"
+      ],
+      "charts": [
+        {
+          "registry": "https://grafana.github.io/helm-charts",
+          "name": "grafana"
+        },
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "grafana"
+        }
+      ]
+    }
+  },
+  {
+    "project": "grafana-loki",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/grafana-loki",
+        "public.ecr.aws/bitnami/grafana-loki"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/grafana-loki"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/grafana/loki",
+        "public.ecr.aws/grafana/loki",
+        "public.ecr.aws/ubuntu/loki",
+        "docker.io/grafana/loki-canary",
+        "docker.io/grafana/loki-operator"
+      ],
+      "charts": [
+        {
+          "registry": "https://grafana.github.io/helm-charts",
+          "name": "loki"
+        },
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "grafana-loki"
+        }
+      ]
+    }
+  },
+  {
+    "project": "grafana-promtail",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/promtail",
+        "public.ecr.aws/bitnami/promtail"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/grafana/promtail",
+        "docker.io/noenv/promtail",
+        "docker.io/giantswarm/promtail"
+      ],
+      "charts": [
+        {
+          "registry": "https://grafana.github.io/helm-charts",
+          "name": "promtail"
+        }
+      ]
+    }
+  },
+  {
+    "project": "harbor",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/harbor-core",
+        "docker.io/bitnami/harbor-portal",
+        "docker.io/bitnami/harbor-registry",
+        "docker.io/bitnami/harbor-registryctl",
+        "docker.io/bitnami/harbor-jobservice",
+        "docker.io/bitnami/harbor-exporter",
+        "docker.io/bitnami/harbor-adapter-trivy",
+        "public.ecr.aws/bitnami/harbor-portal",
+        "public.ecr.aws/bitnami/harbor-core",
+        "public.ecr.aws/bitnami/harbor-registryctl",
+        "public.ecr.aws/bitnami/harbor-jobservice",
+        "public.ecr.aws/bitnami/harbor-registry",
+        "public.ecr.aws/bitnami/harbor-adapter-trivy"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/harbor"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/goharbor/harbor-core",
+        "docker.io/goharbor/harbor-log-base",
+        "docker.io/goharbor/harbor-registryctl-base",
+        "docker.io/goharbor/registry-photon",
+        "docker.io/goharbor/trivy-adapter-photon",
+        "docker.io/goharbor/redis-photon",
+        "docker.io/goharbor/harbor-redis-base",
+        "docker.io/goharbor/harbor-nginx-base",
+        "docker.io/goharbor/harbor-jobservice-base",
+        "docker.io/goharbor/harbor-trivy-adapter-base",
+        "docker.io/goharbor/harbor-exporter-base",
+        "docker.io/goharbor/harbor-core-base",
+        "docker.io/goharbor/harbor-portal-base",
+        "docker.io/goharbor/harbor-log",
+        "docker.io/goharbor/harbor-db-base",
+        "docker.io/goharbor/harbor-jobservice",
+        "docker.io/goharbor/harbor-registryctl",
+        "docker.io/goharbor/harbor-portal",
+        "docker.io/goharbor/harbor-db",
+        "docker.io/goharbor/harbor-exporter"
+      ],
+      "charts": [
+        {
+          "registry": "https://helm.goharbor.io",
+          "name": "harbor"
+        },
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "harbor"
+        }
+      ]
+    }
+  },
+  {
+    "project": "hashicorp-consul-oss",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/consul",
+        "public.ecr.aws/bitnami/consul"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/consul"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/consul",
+        "docker.io/hashicorp/consul",
+        "docker.io/hashicorp/consul-k8s-control-plane",
+        "docker.io/rapidfort/consul-ib",
+        "docker.io/rapidfort/consul",
+        "docker.io/rapidfort/consul-official",
+        "docker.io/noenv/consul",
+        "docker.io/voxxit/consul",
+        "docker.io/arm64v8/consul",
+        "docker.io/hashicorpdev/consul",
+        "docker.io/hashicorppreview/consul",
+        "docker.io/amd64/consul",
+        "docker.io/i386/consul",
+        "public.ecr.aws/hashicorp/consul",
+        "public.ecr.aws/docker/library/consul",
+        "docker.io/chainguard/consul"
+      ],
+      "charts": [
+        {
+          "registry": "https://helm.releases.hashicorp.com",
+          "name": "consul"
+        },
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "consul"
+        }
+      ]
+    }
+  },
+  {
+    "project": "hashicorp-vault-agent-injector",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/vault-k8s"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/library/vault-k8s",
+        "docker.io/hashicorp/vault-k8s",
+        "public.ecr.aws/hashicorp/vault-k8s",
+        "public.ecr.aws/docker/library/vault-k8s"
+      ]
+    }
+  },
+  {
+    "project": "hashicorp-vault-oss",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/vault"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/vault"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/library/vault",
+        "docker.io/hashicorp/vault",
+        "public.ecr.aws/hashicorp/vault",
+        "public.ecr.aws/docker/library/vault"
+      ],
+      "charts": [
+        {
+          "registry": "https://helm.releases.hashicorp.com",
+          "name": "vault"
+        }
+      ]
+    }
+  },
+  {
+    "project": "ingress-nginx-controller-community",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/nginx-ingress-controller"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/nginx-ingress-controller"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/rancher/nginx-ingress-controller",
+        "docker.io/siriuszg/nginx-ingress-controller",
+        "docker.io/chainguard/nginx-ingress-controller",
+        "registry.k8s.io/ingress-nginx/controller",
+        "registry.k8s.io/ingress-nginx/controller-chroot",
+        "quay.io/kubernetes-ingress-controller/nginx-ingress-controller",
+        "gcr.io/google_containers/ingress-nginx-controller",
+        "k8s.gcr.io/ingress-nginx/controller"
+      ],
+      "charts": [
+        {
+          "registry": "https://kubernetes.github.io/ingress-nginx",
+          "name": "ingress-nginx"
+        }
+      ]
+    }
+  },
+  {
+    "project": "jenkins",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/jenkins",
+        "public.ecr.aws/bitnami/jenkins"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/jenkins"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/jenkins/jenkins",
+        "docker.io/elastio/jenkins",
+        "docker.io/elestio/jenkins"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.jenkins.io",
+          "name": "jenkins"
+        },
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "jenkins"
+        }
+      ]
+    }
+  },
+  {
+    "project": "keycloak",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/keycloak",
+        "public.ecr.aws/bitnami/keycloak"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/keycloak"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "quay.io/keycloak/keycloak",
+        "docker.io/keycloak/keycloak",
+        "docker.io/elestio/keycloak",
+        "docker.io/uselagoon/keycloak"
+      ],
+      "charts": [
+        {
+          "registry": "https://codecentric.github.io/helm-charts",
+          "name": "keycloak"
+        }
+      ]
+    }
+  },
+  {
+    "project": "kibana",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/kibana",
+        "public.ecr.aws/bitnami/kibana"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/kibana"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/elastic/kibana",
+        "docker.io/kibana",
+        "public.ecr.aws/elastic/kibana",
+        "public.ecr.aws/docker/library/kibana",
+        "docker.elastic.co/kibana/kibana"
+      ],
+      "charts": [
+        {
+          "registry": "https://helm.elastic.co",
+          "name": "kibana"
+        }
+      ]
+    }
+  },
+  {
+    "project": "kong-gateway-oss",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/kong",
+        "public.ecr.aws/bitnami/kong"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "kong"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/kong/kong",
+        "docker.io/kong/kong-gateway",
+        "docker.io/kong",
+        "docker.io/rapidfort/kong",
+        "public.ecr.aws/supabase/kong",
+        "public.ecr.aws/docker/library/kong",
+        "public.ecr.aws/creditas/library/kong",
+        "public.ecr.aws/u3p7q2r8/kong"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.konghq.com",
+          "name": "kong"
+        }
+      ]
+    }
+  },
+  {
+    "project": "kong-ingress-controller",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/kong-ingress-controller",
+        "marketplace.azurecr.io/bitnami/kong-ingress-controller",
+        "public.ecr.aws/bitnami/kong-ingress-controller"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/kong"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/kong/kubernetes-ingress-controller"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.konghq.com",
+          "name": "ingress"
+        },
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "kong"
+        }
+      ]
+    }
+  },
+  {
+    "project": "kube-rbac-proxy",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/kube-rbac-proxy"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "gcr.io/kubebuilder/kube-rbac-proxy",
+        "docker.io/rancher/kube-rbac-proxy",
+        "docker.io/kubesphere/kube-rbac-proxy",
+        "quay.io/brancz/kube-rbac-proxy"
+      ]
+    }
+  },
+  {
+    "project": "kube-state-metrics",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/kube-state-metrics",
+        "public.ecr.aws/bitnami/kube-state-metrics"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/kube-state-metrics"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "registry.k8s.io/kube-state-metrics/kube-state-metrics",
+        "k8s.gcr.io/kube-state-metrics/kube-state-metrics",
+        "gcr.io/google-containers/kube-state-metrics",
+        "us.gcr.io/google-containers/kube-state-metrics",
+        "asia.gcr.io/google-containers/kube-state-metrics",
+        "eu.gcr.io/google-containers/kube-state-metrics",
+        "gcr.io/cloud-marketplace/google/kube-state-metrics2",
+        "quay.io/coreos/kube-state-metrics",
+        "docker.io/chainguard/kube-state-metrics"
+      ],
+      "charts": [
+        {
+          "registry": "https://prometheus-community.github.io/helm-charts",
+          "name": "kube-state-metrics"
+        },
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "kube-state-metrics"
+        }
+      ]
+    }
+  },
+  {
+    "project": "kubernetes-metrics-server",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/metrics-server"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "metrics-server"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "registry.k8s.io/metrics-server/metrics-server",
+        "k8s.gcr.io/metrics-server/metrics-server",
+        "gcr.io/google_containers/metrics-server-amd64",
+        "docker.io/rancher/metrics-server",
+        "gke.gcr.io/metrics-server",
+        "mcr.microsoft.com/oss/kubernetes/metrics-server",
+        "docker.io/chainguard/metrics-server",
+        "cgr.dev/chainguard/metrics-server",
+        "rancher/hardened-k8s-metrics-server"
+      ],
+      "charts": [
+        {
+          "registry": "https://kubernetes-sigs.github.io/metrics-server/",
+          "name": "metrics-server"
+        }
+      ]
+    }
+  },
+  {
+    "project": "mariadb-galera",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/mariadb-galera",
+        "public.ecr.aws/bitnami/mariadb-galera"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/mariadb-galera"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": []
+    }
+  },
+  {
+    "project": "memcached",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/memcached"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "memcached"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/memcached"
+      ]
+    }
+  },
+  {
+    "project": "metallb",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/metallb-controller",
+        "public.ecr.aws/bitnami/metallb-controller",
+        "docker.io/bitnamicharts/metallb"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "metallb"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "quay.io/metallb/controller",
+        "public.ecr.aws/metallb/controller",
+        "public.ecr.aws/eks-anywhere/metallb/metallb-controller",
+        "public.ecr.aws/eks-anywhere-dev/metallb/metallb-controller",
+        "public.ecr.aws/m8j5b4x2/metallb/metallb-controller",
+        "public.ecr.aws/eks-anywhere/metallb/metallb",
+        "public.ecr.aws/eks-anywhere-dev/metallb/metallb",
+        "public.ecr.aws/m8j5b4x2/metallb/metallb"
+      ],
+      "charts": [
+        {
+          "registry": "https://metallb.github.io/metallb",
+          "name": "metallb"
+        }
+      ]
+    }
+  },
+  {
+    "project": "minio",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/minio",
+        "public.ecr.aws/bitnami/minio"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "minio"
+        },
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/minio"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "quay.io/minio/minio"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.min.io/",
+          "name": "minio"
+        },
+        {
+          "registry": "https://helm.min.io/",
+          "name": "minio"
+        }
+      ]
+    }
+  },
+  {
+    "project": "mongodb",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/mongodb",
+        "public.ecr.aws/bitnami/mongodb"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/mongodb"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/mongo",
+        "docker.io/mongodb/mongodb-community-server",
+        "docker.io/mongodb/mongodb-enterprise-server",
+        "docker.io/rapidfort/mongodb-official",
+        "docker.io/rapidfort/mongodb",
+        "public.ecr.aws/docker/library/mongo"
+      ]
+    }
+  },
+  {
+    "project": "my-sql",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/mysql",
+        "public.ecr.aws/bitnami/mysql"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/mysql"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/mysql",
+        "public.ecr.aws/docker/library/mysql",
+        "public.ecr.aws/ubuntu/mysql",
+        "docker.io/circleci/mysql",
+        "docker.io/ubuntu/mysql",
+        "docker.io/cimg/mysql",
+        "docker.io/rapidfort/mysql",
+        "docker.io/linuxserver/mysql",
+        "docker.io/docksal/mysql",
+        "public.ecr.aws/lts/mysql",
+        "public.ecr.aws/runecast/mysql",
+        "docker.io/elestio/mysql",
+        "docker.io/rapidfort/mysql-official"
+      ],
+      "charts": [
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "mysql"
+        }
+      ]
+    }
+  },
+  {
+    "project": "nats",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/nats",
+        "public.ecr.aws/bitnami/nats"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/nats"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/library/nats",
+        "public.ecr.aws/docker/library/nats",
+        "docker.io/natsio/nats-box"
+      ],
+      "charts": [
+        {
+          "registry": "https://nats-io.github.io/k8s/helm/charts/",
+          "name": "nats"
+        }
+      ]
+    }
+  },
+  {
+    "project": "nginx-oss",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/nginx"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/nginx"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/library/nginx",
+        "docker.io/nginxinc/nginx-unprivileged",
+        "public.ecr.aws/nginx/nginx-unprivileged"
+      ]
+    }
+  },
+  {
+    "project": "o-auth-2-proxy",
+    "bitnami": {
+      "images": [
+        "public.ecr.aws/bitnami/oauth2-proxy",
+        "docker.io/bitnami/oauth2-proxy"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/oauth2-proxy"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "quay.io/oauth2-proxy/oauth2-proxy",
+        "quay.io/pusher/oauth2_proxy"
+      ],
+      "charts": [
+        {
+          "registry": "https://oauth2-proxy.github.io/manifests",
+          "name": "oauth2-proxy"
+        }
+      ]
+    }
+  },
+  {
+    "project": "pg-bouncer",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/pgbouncer",
+        "public.ecr.aws/bitnami/pgbouncer"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "ghcr.io/icoretech/pgbouncer-docker",
+        "ghcr.io/airflow-helm/pgbouncer"
+      ],
+      "charts": [
+        {
+          "registry": "https://icoretech.github.io/helm",
+          "name": "pgbouncer"
+        }
+      ]
+    }
+  },
+  {
+    "project": "postgresql",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/postgresql"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "postgresql"
+        },
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/postgresql"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/rapidfort/postgresql",
+        "docker.io/vmware/postgresql",
+        "docker.io/islandora/postgresql",
+        "docker.io/sismics/postgresql",
+        "docker.io/circleci/postgres",
+        "docker.io/ubuntu/postgres",
+        "docker.io/greenbone/pg-gvm",
+        "docker.io/clearlinux/postgres",
+        "docker.io/privatebin/pdo",
+        "docker.io/hephy/database",
+        "docker.io/postgresqlaasdockerhub/docker-postgresql96",
+        "docker.io/centos/postgresql-94-centos7",
+        "docker.io/centos/postgresql-95-centos7",
+        "docker.io/centos/postgresql-96-centos7",
+        "docker.io/centos/postgresql-10-centos7",
+        "docker.io/centos/postgresql-12-centos7",
+        "docker.io/centos/postgresql-13-centos7",
+        "docker.io/centos/postgresql-10-centos8",
+        "docker.io/centos/postgresql-12-centos8",
+        "docker.io/centos/postgresql-96-centos8",
+        "docker.io/ansibleplaybookbundle/postgresql-apb",
+        "docker.io/postgresqlaas/docker-postgresql-9.6",
+        "docker.io/postgresqlaasdockerhub/docker-postgresql94",
+        "docker.io/cfcommunity/postgresql",
+        "ghcr.io/cloudnative-pg/postgresql",
+        "docker.io/library/postgres",
+        "docker.io/corpusops/postgresql"
+      ],
+      "charts": [
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "postgresql"
+        },
+        {
+          "registry": "https://cetic.github.io/helm-charts",
+          "name": "postgresql"
+        },
+        {
+          "registry": "https://wiremind.github.io/wiremind-helm-charts",
+          "name": "postgresql"
+        },
+        {
+          "registry": "https://charts.goauthentik.io/",
+          "name": "postgresql"
+        },
+        {
+          "registry": "https://charts.kubegems.io/kubegemsapp",
+          "name": "postgresql"
+        }
+      ]
+    }
+  },
+  {
+    "project": "prometheus",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/prometheus"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/prometheus"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "quay.io/prometheus/prometheus",
+        "docker.io/prom/prometheus",
+        "chainguard/prometheus",
+        "ubuntu/prometheus"
+      ],
+      "charts": [
+        {
+          "registry": "https://prometheus-community.github.io/helm-charts",
+          "name": "prometheus"
+        }
+      ]
+    }
+  },
+  {
+    "project": "prometheus-alertmanager",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/alertmanager",
+        "public.ecr.aws/bitnami/alertmanager"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/prom/alertmanager",
+        "quay.io/prometheus/alertmanager",
+        "quay.io/tigera/alertmanager"
+      ],
+      "charts": [
+        {
+          "registry": "https://prometheus-community.github.io/helm-charts",
+          "name": "alertmanager"
+        }
+      ]
+    }
+  },
+  {
+    "project": "prometheus-blackbox-exporter",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/blackbox-exporter",
+        "public.ecr.aws/bitnami/blackbox-exporter"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/prom/blackbox-exporter",
+        "quay.io/prometheus/blackbox-exporter"
+      ],
+      "charts": [
+        {
+          "registry": "https://prometheus-community.github.io/helm-charts",
+          "name": "prometheus-blackbox-exporter"
+        }
+      ]
+    }
+  },
+  {
+    "project": "prometheus-jmx-exporter",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/jmx-exporter",
+        "public.ecr.aws/bitnami/jmx-exporter"
+      ]
+    },
+    "alternatives": {
+      "images": []
+    }
+  },
+  {
+    "project": "prometheus-node-exporter",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/node-exporter",
+        "gallery.ecr.aws/bitnami/node-exporter"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "node-exporter"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "quay.io/prometheus/node-exporter",
+        "docker.io/prom/node-exporter"
+      ],
+      "charts": [
+        {
+          "registry": "https://prometheus-community.github.io/helm-charts",
+          "name": "prometheus-node-exporter"
+        }
+      ]
+    }
+  },
+  {
+    "project": "prometheus-operator",
+    "bitnami": {
+      "images": [
+        "bitnami/prometheus-operator"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "quay.io/prometheus-operator/prometheus-operator",
+        "chainguard/prometheus-operator",
+        "gcr.io/cloud-marketplace/google/prometheus-operator",
+        "ghcr.io/prometheus-operator/prometheus-operator"
+      ],
+      "charts": [
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "prometheus-operator"
+        }
+      ]
+    }
+  },
+  {
+    "project": "prometheus-pushgateway",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/pushgateway",
+        "chainguard/prometheus-pushgateway-bitnami-bitnami"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/prom/pushgateway",
+        "quay.io/prometheus/pushgateway",
+        "chainguard/prometheus-pushgateway"
+      ],
+      "charts": [
+        {
+          "registry": "https://prometheus-community.github.io/helm-charts",
+          "name": "prometheus-pushgateway"
+        }
+      ]
+    }
+  },
+  {
+    "project": "prometheus-redis-metrics-exporter",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/redis-exporter",
+        "public.ecr.aws/bitnami/redis-exporter"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/oliver006/redis_exporter",
+        "quay.io/oliver006/redis_exporter"
+      ],
+      "charts": [
+        {
+          "registry": "https://prometheus-community.github.io/helm-charts",
+          "name": "prometheus-redis-exporter"
+        }
+      ]
+    }
+  },
+  {
+    "project": "prometheus-statsd-exporter",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/statsd-exporter"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/prom/statsd-exporter",
+        "quay.io/prometheus/statsd-exporter"
+      ],
+      "charts": [
+        {
+          "registry": "https://prometheus-community.github.io/helm-charts",
+          "name": "prometheus-statsd-exporter"
+        }
+      ]
+    }
+  },
+  {
+    "project": "rabbitmq",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/rabbitmq"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "rabbitmq"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/rabbitmq",
+        "docker.io/masstransit/rabbitmq",
+        "docker.io/circleci/rabbitmq",
+        "docker.io/itisfoundation/rabbitmq",
+        "docker.io/rapidfort/rabbitmq",
+        "docker.io/chainguard/rabbitmq",
+        "docker.io/brightercommand/rabbitmq",
+        "docker.io/rapidfort/rabbitmq-official",
+        "public.ecr.aws/docker/library/rabbitmq",
+        "public.ecr.aws/s9n0b7r1/rabbitmq",
+        "public.ecr.aws/deel/rabbitmq",
+        "public.ecr.aws/q5v4w7f4/rabbitmq",
+        "public.ecr.aws/ding/rabbitmq",
+        "public.ecr.aws/bigeye/rabbitmq",
+        "public.ecr.aws/l5x1y8h7/rabbitmq",
+        "public.ecr.aws/soci-workshop-examples/rabbitmq"
+      ],
+      "charts": [
+        {
+          "registry": "https://groundhog2k.github.io/helm-charts/",
+          "name": "rabbitmq"
+        }
+      ]
+    }
+  },
+  {
+    "project": "rabbitmq-operator",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/rabbitmq-cluster-operator",
+        "docker.io/bitnami/rmq-messaging-topology-operator"
+      ],
+      "charts": [
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "rabbitmq-cluster-operator"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": []
+    }
+  },
+  {
+    "project": "redis-oss",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/redis",
+        "public.ecr.aws/bitnami/redis",
+        "mcr.microsoft.com/oss/bitnami/redis"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/redis"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/library/redis",
+        "public.ecr.aws/ubuntu/redis",
+        "gcr.io/google-containers/redis",
+        "us.gcr.io/google-containers/redis",
+        "asia.gcr.io/google-containers/redis",
+        "eu.gcr.io/google-containers/redis",
+        "public.ecr.aws/anomalo/tools/redis",
+        "quay.io/akuity/redis"
+      ]
+    }
+  },
+  {
+    "project": "sealed-secrets",
+    "bitnami": {
+      "images": [
+        "public.ecr.aws/bitnami/sealed-secrets",
+        "docker.io/bitnami/sealed-secrets",
+        "docker.io/bitnami/sealed-secrets-controller"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/sealed-secrets"
+        },
+        {
+          "registry": "https://bitnami-labs.github.io/sealed-secrets",
+          "name": "sealed-secrets"
+        },
+        {
+          "registry": "https://charts.bitnami.com/bitnami",
+          "name": "sealed-secrets"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [],
+      "charts": [
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "sealed-secrets"
+        }
+      ]
+    }
+  },
+  {
+    "project": "sonarqube",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/sonarqube",
+        "public.ecr.aws/bitnami/sonarqube"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/sonarqube"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/sonarqube",
+        "public.ecr.aws/docker/library/sonarqube"
+      ],
+      "charts": [
+        {
+          "registry": "https://SonarSource.github.io/helm-chart-sonarqube",
+          "name": "sonarqube"
+        },
+        {
+          "registry": "https://marketplace.azurecr.io/helm/v1/repo",
+          "name": "sonarqube"
+        }
+      ]
+    }
+  },
+  {
+    "project": "thanos",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/thanos",
+        "public.ecr.aws/bitnami/thanos"
+      ],
+      "charts": [
+        {
+          "url": "oci://registry-1.docker.io/bitnamicharts/thanos"
+        }
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/thanosio/thanos",
+        "quay.io/thanos/thanos"
+      ]
+    }
+  },
+  {
+    "project": "trivy",
+    "bitnami": {
+      "images": [
+        "docker.io/bitnami/trivy"
+      ]
+    },
+    "alternatives": {
+      "images": [
+        "docker.io/aquasec/trivy",
+        "public.ecr.aws/aquasecurity/trivy",
+        "ghcr.io/aquasecurity/trivy",
+        "aquasec/trivy"
+      ],
+      "charts": [
+        {
+          "registry": "https://aquasecurity.github.io/helm-charts/",
+          "name": "trivy"
+        }
+      ]
+    }
+  }
+]
