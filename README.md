@@ -73,6 +73,17 @@ func main() {
 }
 ```
 
+You can also use the `chkk` CLI to detect Bitnami artifacts and list
+alternatives.
+
+[Download](https://docs.chkk.io/overview/installation#chkk-cli) the `chkk` CLI
+tool and run `chkk bitnami`. The command will then ask you to select one or
+more Kubernetes Clusters in which to detect Bitnami Docker images and Helm
+Charts.
+
+> **NOTE**: The `chkk bitnami` command **does not require a Chkk account or
+> login**.
+
 ## Contributions
 
 [Contributions](CONTRIBUTING.md) to `bitnami-alternatives` are welcomed!
